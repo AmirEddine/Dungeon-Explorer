@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+header , footer {
+    text-align: center;
+}
+main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MaPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ConteneurPrincipale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+#Grill {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 480px;
+    width: 800px;
+    margin: 0.5rem;
+   
+    
+}
+
+#FenetreExit {
+    display: none;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    height: 150px;
+    width: 250px;
+    bottom: 20%;
+    background-color: #ffff;
+    border: 1px solid;
+}
+#PGameOver {
+    font-size: medium;
+    font-weight: bold;
+    
+}
+.toutBtn {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    align-items: center; 
+    
+}
+.BtnDeplacement input{
+    height: 45px;
+    width: 45px;
+    border-radius: 0.5em;
+    
+}
+.BtnDeplacement{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    align-items: center;
+}
+.BtnExit input{
+    height: 40px;
+}
+
+.Tuile {  
+    flex-direction: row;
+    height: 32px;
+    width: 32px;
+}
+.EnergieBarreEtScore {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 800px;
+    align-items: center;
+    
+}
+.EnergieBarre {
+    background-color: #20fa20;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.conteneurEnergie{
+    border: solid;
+    border-color: black;
+    background-color: #ffff;
+    height: 32px;
+    width: 600px;
+    position: relative;
+    
+}
+.EnergieStatue {
+    position: absolute;
+    right: 47%;
+}
+.EnergieEtInventaire {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
+.BarreInventaire {
+    width: 200px;
+    height: 35px;
+}
+
+.Bombe {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-left: 0.5rem;
+    background-image: url(../img/Bombe.png);
+}
+.Bombe.invisible {
+    display: none;
+}
+.Score {
+    margin-left: 2rem;
+}
